@@ -1,4 +1,4 @@
-name: Delivery CI/CD Pipeline
+name: Deliverytech CI/CD Pipeline
 
 on:
     push:
@@ -16,9 +16,10 @@ jobs:
               with:
                 java-version: '17'
                 distribution: 'temurin'
-            # - name: Build image Docker
-            #   run: docker build -t delivery-t4:latest .
+                
+            
+          ##- name: Build imagem Docker
+          ##  run: docker build -t delivery-api:latest .
 
             - name: Build with Maven
               run: mvn clean package install -DskipTests=true
- 

@@ -11,5 +11,3 @@ git push -u origin master
 git remote add origin https://github.com/mmelero/delivery.git
 git branch -M master
 git push -u origin master
-
-asas

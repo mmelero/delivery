@@ -1,4 +1,4 @@
-name: Deliverytech CI/CD Pipeline
+name: Delivery CI/CD Pipeline
 
 on:
     push:
